@@ -1,0 +1,12 @@
+.content__nav {
+    display: flex;
+    justify-content: center;
+}
+.content__ul {
+    list-style: none;
+}
+.content__li {
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 0;
+}

@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/puzzle.png" />
     <script src="https://kit.fontawesome.com/6ceff8da9f.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Konrad Olcha - Portfolio</title>
 </head>
 
 <body>
     <div class="container">
-        <header>
+        <header class="header">
             <div class="header__logo">Konrad Olcha</div>
             <div class="header__hamburger"><i class="fas fa-bars"></i></div>
             <nav class="header__navigation">
@@ -29,13 +32,13 @@
                 </ul>
             </nav>
         </header>
-        <div class="content">
-            <h4 class="content__title">Cześć!</h4>
+        <section class="content">
+            <h4 class="content__title content__title--main">Cześć!</h4>
             <p>Mam na imię Konrad i bardzo się cieszę, że postanowiłeś/aś odwiedzić moją stronę :) Poniżej dowiesz się o
                 mnie w skrócie kilku rzeczy, między innymi o moim zainteresowaniu programowaniem, pasją do gier i
                 książek Fantasy oraz tematyką rozwoju osobistego. Zapraszam! </p>
 
-            <h4 class="content__title">Programowanie</h4>
+            <h4 class="content__title">Programowanie - moja historia</h4>
             <p>Pierwszy kontakt z programowanie, a dokładniej z kodowaniem, miałem około roku 2004, kiedy to w wieku 12
                 lat zacząłem tworzyć prostą stronę firmy zajmującej się produkcją dachów. Miałem ogólne założenia i
                 miałem stworzyć gotową statyczną stronę. Oczywiście nie wiedziałem wtedy, że był to dla mnie tylko
@@ -45,14 +48,28 @@
                 wspominam tą naukę z zapałem i entuzjazmem, przez wiele lat nie powróciłem do kodowania stron, aż do
                 roku 2018, kiedy pierwszy raz zetknąłem się z prawdziwym programowaniem. Był to bot do gry Diablo 2,
                 który był w stanie sam za nas grać i zbierać przedmioty w grze. Oczywiście nie jestem fanem oszukiwania
-                w grach, to byłem bardzo zafascynowany działaniem tego programu i zacząłem szukać informacji na temat
+                w grach, ale byłem bardzo zafascynowany działaniem tego programu i zacząłem szukać informacji na temat
                 języka w jakim został napisany. Okazało się, że był częściowo napisany w Javascript, a także
-                wykorzystywał popularny format plików JSON do konfiguracji ustawień dla użytkonika. Musiałem nauczyć się
+                wykorzystywał popularny format plików JSON do konfiguracji ustawień dla użytkownika. Musiałem nauczyć
+                się
                 wtedy podstawowej struktury plików JSON, aby wszystko działało poprawnie. Przez kolejne miesiące, aż do
                 dnia dzisiejszego, rozwijałem i rozwijam swoje umiejętności, a nawet napisałem swojego własnego małego
-                bota do gry przeglądarkowej :) </p>
-        </div>
+                bota do gry przeglądarkowej :)</p>
+            <p> W zakładce Technologie możesz dowiedzieć się więcej na ten temat. Lub na skróty <a
+                    href="technologies.html">tu</a>.</p>
+
+
+            <h4 class="content__title">Moje hobby</h4>
+            <p>Oprócz programowania, poświęcam swój czas dwóm rzeczom: książkom o tematyce fantasy, a także grom
+                komputerowym. W zakładce Hobby znajdziesz więcej informacji na ten temat, w tym tytuły gier w które gram
+                oraz listę wszystkich książek jakie posiadam w domowej bibliteczce.</p>
+        </section>
+        <footer>Copyright by Konrad Olcha 2019</footer>
+
+    <button class="btnGoTop"><i class="fas fa-arrow-up"></i></button>
     </div>
+    
+    <script src="script/script.js"></script>
 </body>
 
 </html>
