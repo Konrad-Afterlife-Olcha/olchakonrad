@@ -1,0 +1,8 @@
+.hidden {
+    display: none;
+}
+
+.content__hobby {
+    visibility: "none";
+    transition: 2s;
+}

@@ -1,28 +1,120 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/puzzle.png" />
-    <script
-			  src="https://code.jquery.com/jquery-3.4.1.min.js"
-			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			  crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6ceff8da9f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Konrad Olcha - Portfolio</title>
 </head>
+
 <body>
     <div class="container">
-        <nav>
-            <ul>
-                <li><a href="">O mnie</a></li>
-                <li><a href=""></a>Technologie</a></li>
-                <li><a href=""></a>Portfolio</a></li>
-                <li><a href=""></a>Hobby</a></li>
-                <li><a href=""></a>CV</a></li>
-                <li><a href=""></a>Kontakt</a></li>
-            </ul>
-        </nav>
+        <header class="header">
+            <div class="header__logo">Konrad Olcha</div>
+            <div class="header__hamburger"><i class="fas fa-bars"></i></div>
+            <nav class="header__navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__element"><a class="navigation__link" href="index.html">O mnie</a></li>
+                    <li class="navigation__element"><a class="navigation__link" href="technologies.html">Technologie</a>
+                    </li>
+                    <li class="navigation__element"><a class="navigation__link" href="portfolio.html">Portfolio</a></li>
+                    <li class="navigation__element"><a class="navigation__link" href="hobby.html">Hobby</a></li>
+                    <li class="navigation__element"><a class="navigation__link" href="cv.html">CV</a></li>
+                    <li class="navigation__element"><a class="navigation__link" href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+            <nav class="content__nav">
+                <ul class="content__ul">
+                    <li class="content__li content__li--gaming">Gaming</li>
+                    <li class="content__li content__li--books">Książki Fantasy</li>
+                    <li class="content__li content__li--persdev">Rozwój osobisty</li>
+                </ul>
+            </nav>
+            <div class="content__line"></div>
+            <section class="content__hobby content__gaming">
+                <article class="content__article">
+                    <h1 class="content__title content__title--diablo">Diablo II & Diablo III</h1>
+                    <p>Już będąc w podstawówce, udało mi się dostać moje pierwsze pudełkowe wydanie Diablo 2 wraz z
+                        dodatkiem Pan Zniszczenia. Wspomnienia początków gry na single player oraz pierwsze kroki na
+                        Battle.net do teraz wywołują we mnie dreszcze. Już jako młody szczyl, poznawałem świetnych ludzi
+                        w grze, którzy pomagali mi grindować sprzęt, lvlować postacie i mieć mega frajdę z gry.
+                    </p>
+                    <p>
+                        Setki godzin spędziłem na grze, a kolejne kilkadziesiąt na popularnym wtedy forum d2trade, które
+                        było polskim odpowiednikiem d2jsp, czyli miejsca w którym można było w łatwy sposób handlować
+                        przedmiotami z gry za tzw. forum goldy(fg). Następnie w zamian za fg, można było kupować
+                        przedmioty lub usługi, których potrzebowała nasza postać. Było to też świetne miejsce do
+                        dyskusji, wymiany poglądów i umieszczania poradników.</p>
+                    <p>Każda gra się kiedyś nudzi, tak też było z diablo 2. Odstawiona w kąt na rzecz innych gatunków,
+                        powróciła do mnie w 2018 roku, kiedy postanowiłem odkurzyć stare pudełko i zainstalowałem grę od
+                        nowa. Jakie było moje zdziwienie, gdy zobaczyłem, że battle.net cały czas żyje i ma się nieźle.
+                        Podczas kolejnych kilkudziesięciu godzin powróciły dawne miłe wspomnienia i staram się wracać do
+                        tego tytułu wraz z każdym nowym ladderem. To jest jedna z tych gier, do których zawsze kiedyś
+                        się wraca.</p>
+                    <p>Wielu fanów diablo 2 uważa, że kontynuacja tego dzieła jako Diablo 3, to już nie to samo, brak
+                        mroku, za dużo kolorowych motówów, słaby system umiejętności i wiele innych rzeczy. Oczywiście,
+                        nie zaliczam się do tej grupy, chociaż co do niektórych kwestii muszę się zgodzić :) Co nie
+                        zmienia faktu, że przy diablo 3 bawiłem się świetnie, przez wiele sezonów gry od nowa expiąc
+                        swojego ulubionego monka i próbując coraz to nowsze buildy, robiąc coraz trudniejsze głębokie
+                        szczeliny i szukająć najlepszych przedmiotów dla postaci. Mimo iż po około 2 tygodniach gra
+                        potrafi mi się znudzić, to starami się wraz ze znajomym, co sezon ruszać ponownie na podbój
+                        Sanktuarium w celu eliminacji hord pomiotów piekieł, aby nasz świat był bezpieczniejszy. </p>
+                    <h1 class="content__title content__title--lol">League of Legends</h1>
+                    <p>Gra w której spędziłem ewidentnie najwięcej godzin w swoim życiu. Zaczynałem wraz z końcem sezonu
+                        pierwszego, kiedy można śmiało powiedzieć, że była to wtedy praktycznie inna gra. Do dziś
+                        pamiętam, że pierwszą postacią jaką zagrałem był Xin Zhao, gość wymachujący wielką piką z
+                        wygląda troszkę nawiązujący do klimatów Azji wschodniej. Graliśmy wtedy głównie na mapach 3vs3,
+                        było to stare Twisted Treeline, które zostało zmienione dość znacznie w kolejnych latach. </p>
+                    <p>Zawsze lubiłem rywalizację i wspinanie się po drabinkach w górę rankingów, tak też było z League
+                        of Legends. Mimo iż pierwsze lata grałem głównie tzw. normale, czyli gry, który nie zaliczają
+                        się do żadnego rankingu, to wkrótce zacząłem grać także rankedy, a w tych było już znacznie
+                        ciekawiej. Na początku było ciężko, jednak jako człowiek cierpliwy i spokojny, piąłem się w
+                        górę, a w najlepszym momencie osiągnąłem rangę Diament 2, a także byłem jednym z najlepszych
+                        graczy postacią "Swain" na serwerze wschodnio europejskim. Do teraz regularnie grywam,
+                        utrzymując się w każdym sezonie na poziomie Platyny.</p>
+
+                </article>
+            </section>
+            <section class="content__hobby content__books hidden">
+                <p>Zastanawiasz się, jak zaczeła się przygoda z fantastyką? Pewnie jak wielu dzieciaków z mojego
+                    rocznika i w podobnym wieku. Harry Potter i kamień filozoficzny. Jako 10 latek czytałem tą książkę
+                    przez... kilka lat. Nie miałem chęci wtedy czytać, wolałem pobawić się na podwórku, pograć w piłkę,
+                    czy na komputerze. Przyszedł jednak moment, w którym udało mi się przebrnąć przed jeden rozdział,
+                    później polejny, a moja wyobraźnia zaczeła podpowiadać się rozwijać w niesamowitym tempie. Chciała
+                    więcej i więcej. Czytałem wtedy dość wolno, jednak potrafiłem siedzieć do późna w nocy i czytać aż
+                    oczy same się zamykały. O kolejne książki prosiłem rodziców, lub sam na nie odkładałem. Uwielbiałem
+                    już wtedy także gry z tej tematyki, jak Gothic, czy Diablo, a książki pokazywały mi, że można też
+                    samemu, we własnej głowie tworzyć sceny i filmy, za pomocą wyobraźni.</p>
+                <p>W kolejnych latach, aż do dnia dzisiejszego, moja kolekcja książek znacznie się rozrosła. Na zdjęciu
+                    obok widzisz mój aktualny zbiór, który cały czas się powiększa, o conajmniej kilka książek rocznie.
+                    Kiedy byłem młodszy i były momenty, że czytałem znacznie szybciej niż mogłem sobie pozwolić na zakup
+                    kolejnej książki, to po prostu czytałem niektóre serie po raz kolejny. Ale jak to? A no tak to. Mimo
+                    iż wiedziałem z grubsza co się stanie i jak to się zakończy, to dalej miałem wielką frajdę z
+                    przeżywania ponownie przygód głównych bohaterów i przypominania sobie szczegółów o których już
+                    zdążyłem zapomnieć.</p>
+            </section>
+            <section class="content__hobby content__persdev hidden">
+                <p>Rozwój osobisty</p>
+            </section>
+        </section>
+        <footer>Copyright by Konrad Olcha 2019</footer>
+
+        <button class="btnGoTop"><i class="fas fa-arrow-up"></i></button>
     </div>
+
+    <script src="script/script.js"></script>
 </body>
+
 </html>
