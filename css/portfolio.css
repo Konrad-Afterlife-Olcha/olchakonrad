@@ -1,0 +1,11 @@
+.content__article {
+margin: 20px 0;
+}
+.article__img {
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
