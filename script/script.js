@@ -1,6 +1,7 @@
 const $hamburgerBtn = $('.header__hamburger');
 const $menu = $('.header__navigation');
 const $btnGoTop = $('.btnGoTop').hide()
+const $submenuCV = $('.navigation__submenu--cv').hide();
 if ($(window).width() > 550) {
     $menu.show()
 } else {
@@ -59,4 +60,7 @@ $('.content__li--books').on('click', () => {
 })
 $('.content__li--persdev').on('click', () => {
     showHobby('.content__persdev')
+})
+$('.navigation__element--with-submenu').on("click", () => {
+    $submenuCV.slideToggle()
 })
