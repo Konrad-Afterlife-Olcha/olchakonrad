@@ -17,8 +17,16 @@
 
 <body>
     <div class="container">
-        <header class="header">
-            <div class="header__logo">Konrad Olcha</div>
+        <header class="header clearfix">
+            <a href="index.html" class="header__link">
+                <div class="header__logo"><img src="./image/85c17791-66d6-41c1-afea-c44102bb8588_200x200.png"
+                        alt="logo Konrad Olcha" class="logo__image">
+                    <div class="logo__text">
+                        <span class="logo__name">Konrad Olcha</span>
+                        <span class="logo__name--small">Front-end Developer</span>
+                    </div>
+                </div>
+            </a>
             <div class="header__hamburger"><i class="fas fa-bars"></i></div>
             <nav class="header__navigation">
                 <ul class="navigation__list">
@@ -27,8 +35,17 @@
                     </li>
                     <li class="navigation__element"><a class="navigation__link" href="portfolio.html">Portfolio</a></li>
                     <li class="navigation__element"><a class="navigation__link" href="hobby.html">Hobby</a></li>
-                    <li class="navigation__element"><a class="navigation__link" href="cv.html">CV</a></li>
-                    <li class="navigation__element"><a class="navigation__link" href="contact.html">Kontakt</a></li>
+                    <li class="navigation__element navigation__element--with-submenu">
+                        <a class="navigation__link" href="#">CV</a>
+                        <ul class="navigation__submenu navigation__submenu--cv">
+                            <li><a class="navigation__link navigation__link--submenu"
+                                    href="https://interviewme.pl/cv/konrad-olcha">CV
+                                    Online</a></li>
+                            <li><a class="navigation__link navigation__link--submenu"
+                                    href="assets/konrad-olcha-CV.pdf">CV pdf (do
+                                    wydruku)</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>

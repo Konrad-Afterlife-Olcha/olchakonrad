@@ -2,11 +2,21 @@
     display: flex;
     justify-content: center;
 }
+
 .content__ul {
     list-style: none;
 }
+
 .content__li {
     text-align: center;
     cursor: pointer;
     padding: 10px 0;
+}
+
+@media (min-width: 552px) {
+    .content__ul {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
 }
