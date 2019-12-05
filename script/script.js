@@ -2,7 +2,7 @@ const $hamburgerBtn = $('.header__hamburger');
 const $menu = $('.header__navigation');
 const $btnGoTop = $('.btnGoTop').hide()
 const $submenuCV = $('.navigation__submenu--cv').hide();
-if ($(window).width() > 550) {
+if ($(window).width() > 700) {
     $menu.show()
 } else {
     $menu.hide()
@@ -11,7 +11,7 @@ $hamburgerBtn.on("click", () => {
     $menu.slideToggle()
 })
 $(window).on("scroll", (e) => {
-    if ($(window).scrollTop() > 500) {
+    if ($(window).scrollTop() > 700) {
         $btnGoTop.show()
     } else {
         $btnGoTop.hide()
@@ -24,7 +24,7 @@ $btnGoTop.on("click", () => {
 })
 
 $(window).on("resize", function () {
-    if ($(window).width() > 552) {
+    if ($(window).width() > 682) {
         $menu.show()
     } else {
         $menu.hide()
