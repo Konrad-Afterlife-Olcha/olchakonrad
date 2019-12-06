@@ -11,7 +11,7 @@ $hamburgerBtn.on("click", () => {
     $menu.slideToggle()
 })
 $(window).on("scroll", (e) => {
-    if ($(window).scrollTop() > 700) {
+    if ($(window).scrollTop() > 400) {
         $btnGoTop.show()
     } else {
         $btnGoTop.hide()
@@ -37,13 +37,13 @@ function scrollTo(element) {
     }, 'slow')
 }
 $('.content__li--frontend').on('click', () => {
-    scrollTo('.content__title--frontend')
+    scrollTo('.skills__image--frontend')
 })
 $('.content__li--backend').on('click', () => {
-    scrollTo('.content__title--backend')
+    scrollTo('.skills__image--backend')
 })
 $('.content__li--db').on('click', () => {
-    scrollTo('.content__title--db')
+    scrollTo('.skills__image--soft')
 })
 
 function showHobby(element) {
