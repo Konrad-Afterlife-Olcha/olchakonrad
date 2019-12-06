@@ -33,7 +33,7 @@ $(window).on("resize", function () {
 
 function scrollTo(element) {
     $('html, body').animate({
-        scrollTop: ($(element).offset().top) - 60
+        scrollTop: ($(element).offset().top) - 100
     }, 'slow')
 }
 $('.content__li--frontend').on('click', () => {

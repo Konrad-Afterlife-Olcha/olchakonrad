@@ -5,12 +5,55 @@
 
 .content__ul {
     list-style: none;
+    width: 100%;
 }
 
 .content__li {
     text-align: center;
     cursor: pointer;
+    width: 100%;
     padding: 10px 0;
+    margin: 10px 0;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
+    box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
+}
+
+.skills__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__image {
+    max-width: 300px;
+}
+
+.skills__image--frontend {
+    width: 50%;
+
+}
+
+.skills__image--backend {
+    width: 30%;
+    max-width: 200px;
+}
+
+.skills__image--soft {
+    width: 50%;
+}
+
+.skills__title {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.line {
+    width: 80%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.918)
 }
 
 @media (min-width: 552px) {
