@@ -2,7 +2,71 @@
     display: none;
 }
 
+.content__hobby-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.hobby-nav__ul {
+    list-style: none;
+    width: 100%;
+}
+
+.hobby-nav__li {
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
+    box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
+}
+
+.content__article {
+    display: flex;
+    flex-direction: column;
+}
+
 .content__hobby {
-    visibility: "none";
-    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-justify: distribute;
+
+}
+
+.content__title {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.content__title--section {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.content__title--author {
+    font-size: 15px;
+}
+
+.content__paragraph {
+    text-indent: 30px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.content__image {
+    margin: 0 auto;
+    max-width: 80vw;
+    -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content__image--hobby {
+    max-width: 200px;
 }

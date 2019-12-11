@@ -46,21 +46,29 @@ $('.content__li--db').on('click', () => {
     scrollTo('.skills__image--soft')
 })
 
-function showHobby(element) {
-    $('.content__hobby').addClass('hidden')
+// function showHobby(element) {
+//     $('.content__hobby').addClass('hidden')
 
-    $(element).removeClass('hidden')
-    $(element).css("visibility", "visible")
-}
-$('.content__li--gaming').on('click', () => {
-    showHobby('.content__gaming')
+//     $(element).removeClass('hidden')
+//     $(element).css("visibility", "visible")
+// }
+const $hobbyMenuElements = $(".hobby-nav__li");
+const $hobbySections = $(".content__hobby").hide();
+$($hobbySections[0]).show()
+$hobbyMenuElements.on("click", function () {
+    $hobbySections.hide()
+    $($hobbySections[$(this).index()]).show()
 })
-$('.content__li--books').on('click', () => {
-    showHobby('.content__books')
-})
-$('.content__li--persdev').on('click', () => {
-    showHobby('.content__persdev')
-})
+// console.log($hobbyMenuElements[0], $hobbySections[0])
+// $('.hobby-nav__li--gaming').on('click', () => {
+//     showHobby('.content__gaming')
+// })
+// $('.hobby-nav__li--books').on('click', () => {
+//     showHobby('.content__books')
+// })
+// $('.hobby-nav__li--persdev').on('click', () => {
+//     showHobby('.content__persdev')
+// })
 $('.navigation__element--with-submenu').on("click", () => {
     $submenuCV.slideToggle()
 })
