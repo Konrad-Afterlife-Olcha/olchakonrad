@@ -158,6 +158,20 @@ body {
     list-style: none;
 }
 
+.home__image {
+    float: left;
+    width: 40%;
+    max-width: 300px;
+    margin: 0 10px 10px 10px;
+    -webkit-box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 1);
+    box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 1);
+}
+
+.home__paragraph {
+    text-indent: 30px;
+    line-height: 30px;
+}
 
 @media (orientation: landscape) {
     .header__navigation {
