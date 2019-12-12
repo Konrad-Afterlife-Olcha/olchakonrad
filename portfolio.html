@@ -52,46 +52,128 @@
         </header>
         <section class="content">
             <div class="portfolio__title">
-                <h2 class="content__title-github"> Mój profil na github</h2>
-                <a class="portfolio__github-icon" href="https://github.com/Konrad-Afterlife-Olcha"><i
+                <h2 class="portfolio__title-github"> Mój profil na github</h2>
+                <a class="portfolio__github-icon" href="https://github.com/Konrad-Afterlife-Olcha" target="blank"><i
                         class="fab fa-github-square"></i></a>
             </div>
-            <article class="content__article clearfix">
-                <img class="article__img" src="http://placekitten.com/300/200" alt="">
-                <div class="article__text">
-                    <h3 class="content__title article__title">Strona 1</h3>
-                    <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                        reiciendis soluta voluptate omnis incidunt minus suscipit minima. Similique iusto mollitia
-                        cumque dicta architecto modi quas aspernatur ratione esse sequi.</p>
-                </div>
-            </article>
-            <article class="content__article clearfix">
-                <img class="article__img" src="http://placekitten.com/300/200" alt="">
-                <div class="article__text">
-                    <h3 class="content__title article__title">Strona 2</h3>
-                    <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                        reiciendis soluta voluptate omnis incidunt minus suscipit minima. Similique iusto mollitia
-                        cumque dicta architecto modi quas aspernatur ratione esse sequi.</p>
-                </div>
-            </article>
-            <article class="content__article clearfix">
-                <img class="article__img" src="http://placekitten.com/300/200" alt="">
-                <div class="article__text">
-                    <h3 class="content__title article__title">Strona 3</h3>
-                    <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                        reiciendis soluta voluptate omnis incidunt minus suscipit minima. Similique iusto mollitia
-                        cumque dicta architecto modi quas aspernatur ratione esse sequi.</p>
-                </div>
-            </article>
-            <article class="content__article clearfix">
-                <img class="article__img" src="http://placekitten.com/300/200" alt="">
-                <div class="article__text">
-                    <h3 class="content__title article__title">Strona 4</h3>
-                    <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                        reiciendis soluta voluptate omnis incidunt minus suscipit minima. Similique iusto mollitia
-                        cumque dicta architecto modi quas aspernatur ratione esse sequi.</p>
-                </div>
-            </article>
+            <hr class="line line--portfolio">
+            <h1 class="portfolio__title portfolio__title--big">Projekty</h1>
+            <hr class="line line--portfolio">
+            <div class="portfolio__article-area">
+                <article class="portfolio__article clearfix">
+                    <a class="portfolio__link" href="https://konrad-afterlife-olcha.github.io/oddam_w_dobre_rece/"
+                        target="blank"><img class="portfolio__image" src="image/portfolio/oddamrzeczy@desktop.png"
+                            alt="oddam rzeczy website"></a>
+                    <div class="article__text">
+                        <h1 class="portfolio__title portfolio__title--big">Oddaj rzeczy</h1>
+                        <p class="portfolio__title portfolio__title--article">W projekcie wykorzystałem następujące
+                            narzędzia
+                            i technologie:</p>
+                        <ul class="portfolio__list">
+                            <li class="portfolio__element">Biblioteka React</li>
+                            <li class="portfolio__element">create-react-app</li>
+                            <li class="portfolio__element">react-sass</li>
+                            <li class="portfolio__element">react-scroll</li>
+                            <li class="portfolio__element">react-router</li>
+                            <li class="portfolio__element">Firebase authentication</li>
+                            <li class="portfolio__element">Javascript</li>
+                        </ul>
+                        <a href="https://github.com/Konrad-Afterlife-Olcha/oddam_w_dobre_rece"
+                            class="portfolio__link portfolio__link--repo" target="blank"> Github
+                            repo</a>
+                        <a href="https://konrad-afterlife-olcha.github.io/oddam_w_dobre_rece/"
+                            class="portfolio__link portfolio__link--repo" target="blank"> Github
+                            pages</a>
+                        <p class="portfolio__description">Podczas tworzenia tej strony skupiłem się głównie na
+                            poznawaniu
+                            nowych ciekawych narzędzi dla reacta, podstawową komunikacją z firebase i strukturą strony i
+                            jej
+                            komponentów. W tej chwili strona nie jest jeszcze responsywna, jednak w najbliższym czasie
+                            zamierzam to poprawić.</p>
+                    </div>
+                </article>
+                <hr class="line">
+                <article class="portfolio__article clearfix">
+                    <a class="portfolio__link" href="https://github.com/Konrad-Afterlife-Olcha/RickAndMorty"
+                        target="blank"><img class="portfolio__image" src="image/portfolio/rickandmorty.png"
+                            alt="oddam rzeczy website"></a>
+                    <div class="article__text">
+                        <h1 class="portfolio__title portfolio__title--big">Rick and Morty</h1>
+                        <p class="portfolio__title portfolio__title--article">W projekcie wykorzystałem następujące
+                            narzędzia
+                            i technologie:</p>
+                        <ul class="portfolio__list">
+                            <li class="portfolio__element">biblioteka React</li>
+                            <li class="portfolio__element">REST Api</li>
+                            <li class="portfolio__element">css</li>
+                            <li class="portfolio__element">javascript</li>
+                            <li class="portfolio__element">react-router</li>
+                            <li class="portfolio__element">webpack</li>
+                            <li class="portfolio__element">babel</li>
+                        </ul>
+                        <a href="https://github.com/Konrad-Afterlife-Olcha/RickAndMorty"
+                            class="portfolio__link portfolio__link--repo" target="blank"> Github
+                            repo</a>
+                        <p class="portfolio__description">Pierwsza strona zbudowana przeze mnie w Reactcie. Nie
+                            korzystałem w tym projekcie z gotowego szablonu create-react-app, zaś całość stworzyłem
+                            samodzielnie. Strona korzysta z darmowego api z tej strony: <a
+                                href="https://rickandmortyapi.com/">https://rickandmortyapi.com/</a>. Graficznie
+                            pozostawia wiele do życzenia, jednak podczas tworzenia tej strony nauczyłem się skutecznego
+                            korzystania z fetcha i tworzenia wielu elementów na stronie, zależnie od pobranych danych z
+                            api. Strona jest responsywna i wyświetla się dobrze również na urządzeniach mobilnych.</p>
+                    </div>
+                </article>
+                <hr class="line line--portfolio">
+                <article class="portfolio__article clearfix">
+                    <a class="portfolio__link" href="https://konrad-afterlife-olcha.github.io/SitOnChair/"
+                        target="blank"><img class="portfolio__image" src="image/portfolio/sitonchair.png"
+                            alt="Sit on Chair"></a>
+                    <div class="article__text">
+                        <h1 class="portfolio__title portfolio__title--big">Sit on Chair</h1>
+                        <p class="portfolio__title portfolio__title--article">W projekcie wykorzystałem następujące
+                            narzędzia
+                            i technologie:</p>
+                        <ul class="portfolio__list">
+                            <li class="portfolio__element">Html</li>
+                            <li class="portfolio__element">Css</li>
+                            <li class="portfolio__element">Javascript</li>
+                        </ul>
+                        <a href="https://github.com/Konrad-Afterlife-Olcha/SitOnChair"
+                            class="portfolio__link portfolio__link--repo" target="blank"> Github
+                            repo</a>
+                        <a href="https://konrad-afterlife-olcha.github.io/SitOnChair/"
+                            class="portfolio__link portfolio__link--repo" target="blank"> Github
+                            pages</a>
+                        <p class="portfolio__description">Pierwsza strona jaką stworzyłem, był to projekt jednego z
+                            warsztatów kursu CodersLab. Prosta struktura, jednak ma kilka ciekawych smaczków dla młodego
+                            programisty, jak chociażby slider.</p>
+                    </div>
+                </article>
+                <hr class="line">
+                <article class="portfolio__article clearfix">
+                    <a class="portfolio__link" href="#" target="blank"><img class="portfolio__image"
+                            src="image/portfolio/mojastrona.png" alt="oddam rzeczy website"></a>
+                    <div class="article__text">
+                        <h1 class="portfolio__title portfolio__title--big">Moja strona</h1>
+                        <p class="portfolio__title portfolio__title--article">W projekcie wykorzystałem następujące
+                            narzędzia
+                            i technologie:</p>
+                        <ul class="portfolio__list">
+                            <li class="portfolio__element">jquery</li>
+                            <li class="portfolio__element">html</li>
+                            <li class="portfolio__element">css</li>
+                        </ul>
+                        <a href="https://github.com/Konrad-Afterlife-Olcha/olchakonrad"
+                            class="portfolio__link portfolio__link--repo" target="blank"> Github
+                            repo</a>
+                        <a href="#" class="portfolio__link portfolio__link--repo" target="blank"> Github
+                            pages</a>
+                        <p class="portfolio__description">Strona na której aktualnie się znajdujesz. Postawiłem na
+                            prostotę, dlatego wykorzystuję na tej stronie głównie bibliotekę jquery i standardowo html i
+                            css.</p>
+                    </div>
+                </article>
+            </div>
         </section>
         <footer>Copyright by Konrad Olcha 2019</footer>
 

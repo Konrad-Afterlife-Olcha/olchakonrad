@@ -4,24 +4,71 @@
 }
 
 .portfolio__title {
-    padding-top: 20px;
+    padding: 20px;
     text-align: center;
 }
 
-.content__title-github {
+.portfolio__title-github {
     font-size: 20px;
 }
 
-.content__article {
-    margin: 20px 0;
+.portfolio__title--article {
+    font-size: 20px;
 }
 
-.article__img {
-    float: left;
+.portfolio__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white
+}
+
+.portfolio__image {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+}
+
+.portfolio__list {
+    padding-left: 40px;
+    list-style-type: circle;
+}
+
+.portfolio__description {
+    padding: 20px;
+    text-indent: 30px;
+    line-height: 30px;
+
 }
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+@media (min-width: 1000px) {
+    .portfolio__article-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .portfolio__article {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .line--portfolio {
+        display: block;
+    }
 }
