@@ -1,11 +1,27 @@
-.content__article {
-margin: 20px 0;
+.portfolio__github-icon {
+    font-size: 80px;
+    color: white;
 }
+
+.portfolio__title {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.content__title-github {
+    font-size: 20px;
+}
+
+.content__article {
+    margin: 20px 0;
+}
+
 .article__img {
     float: left;
 }
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
+}

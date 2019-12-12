@@ -87,6 +87,11 @@
 }
 
 @media (min-width: 1200px) {
+    .page {
+        min-height: 100vh;
+        position: relative;
+    }
+
     .content__nav {
         display: none;
     }
@@ -95,26 +100,19 @@
         display: none;
     }
 
-    .content__skills {
+    .skills__area {
         display: flex;
+        justify-content: space-around;
     }
 
     .skills {
-        position: relative;
-        width: 33%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        width: 30%;
     }
 
-    .skills__title {
-        position: absolute;
-        top: 150px
+    .skills__image {
+        height: 100px;
+        width: auto;
+        margin-top: 50px;
     }
 
-    .skills__list {
-        align-self: center;
-        position: absolute;
-        top: 250px;
-    }
 }
