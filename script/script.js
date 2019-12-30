@@ -72,3 +72,29 @@ $hobbyMenuElements.on("click", function () {
 $('.navigation__element--with-submenu').on("click", () => {
     $submenuCV.slideToggle()
 })
+
+
+const name = document.querySelector(".home__name");
+const surname = document.querySelector(".home__surname");
+
+function nameAnimation() {
+    const nameText = ["K", "o", "n", "r", "a", "d"];
+    const surnameText = ["O", "l", "c", "h", "a"]
+    let nameCounter = 0;
+    let surnameCounter = 0;
+    let nameInterval = setInterval(() => {
+        name.innerText += nameText[nameCounter];
+        nameCounter++;
+        if (nameCounter == nameText.length) clearInterval(nameInterval)
+    }, 200)
+    setTimeout(() => {
+        let surnameInterval = setInterval(() => {
+            surname.innerText += surnameText[surnameCounter]
+            surnameCounter++;
+            if (surnameCounter == surnameText.length) clearInterval(surnameInterval)
+        }, 200)
+    }, 2000)
+}
+if (name != null) {
+    nameAnimation()
+}

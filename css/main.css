@@ -140,7 +140,6 @@ body {
 }
 
 .content__title--main {
-    height: 100vh;
     text-align: center;
     line-height: 100vh;
 }
@@ -168,9 +167,25 @@ body {
     box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 1);
 }
 
+.home__icon {
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.home__icons {
+    text-align: center;
+}
+
 .home__paragraph {
     text-indent: 30px;
     line-height: 30px;
+}
+
+.home__line {
+    width: 60%;
+    color: white;
+    margin: 50px auto;
 }
 
 @media (orientation: landscape) {
@@ -272,5 +287,11 @@ body {
 
     .navigation__submenu {
         position: absolute;
+    }
+
+    .home__line {
+        width: 60%;
+        color: white;
+        margin: 50px auto;
     }
 }
