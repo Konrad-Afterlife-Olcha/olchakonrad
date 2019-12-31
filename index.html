@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=latin-ext"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:500&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/puzzle.png" />
     <script src="https://kit.fontawesome.com/6ceff8da9f.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -53,29 +54,41 @@
         <section class="content">
             <h4 class="content__title content__title--main"></h4>
             <article class="home">
-                <img src="image/konradFoto.jpg" alt="Konrad Olcha" class="home__image">
-                <div class="home__animation">
-                    <p>Imię: <span class="home__name"></span></p>
-                    <p>Nazwisko: <span class="home__surname"></span></p>
+                <div class="home__header clearfix">
+                    <img src="image/konradFoto.jpg" alt="Konrad Olcha" class="home__image">
+                    <div class="home__animation">
+                        <p><span class="home__name"></span>
+                            <span class="cursor cursor__name"> </span>
+
+                        </p>
+                        <p><span class="home__surname"></span>
+                            <span class="cursor cursor__surname"> </span>
+                        </p>
+                    </div>
+
+                    <div class="home__icons">
+                        <hr class="home__line">
+                        <p>Odwiedź mój profil na Linkedin oraz Github:</p>
+                        <p><a class="home__icon" href="https://www.linkedin.com/in/konrad-afterlife-olcha/"
+                                target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="home__icon" href="https://github.com/Konrad-Afterlife-Olcha" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </p>
+                        <hr class="home__line">
+                    </div>
+
                 </div>
-                <hr class="home__line">
-                <div class="home__icons">
-                    <p>Koniecznie odwiedź mój profil na Linkedin oraz Github:</p>
-                    <p><a class="home__icon" href="https://www.linkedin.com/in/konrad-afterlife-olcha/"
-                            target="blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="home__icon" href="https://github.com/Konrad-Afterlife-Olcha" target="blank"><i
-                                class="fab fa-github"></i></a>
-                    </p>
-                </div>
-                <hr class="home__line">
                 <h4 class="content__title">O mnie</h4>
                 <p class="home__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quam dolore
                     obcaecati facere?
                     Laudantium commodi optio in saepe quia perspiciatis vitae laborum fuga! Ab consequuntur tempore
-                    fugiat iure repellendus eum. Neque, assumenda eligendi dignissimos sed in aut illo blanditiis eos
-                    rerum ab. Dolore accusantium, labore facere aliquid neque odio dolorem fuga? Deserunt, doloremque!
+                    fugiat iure repellendus eum. Neque, assumenda eligendi dignissimos sed in aut illo blanditiis
+                    eos
+                    rerum ab. Dolore accusantium, labore facere aliquid neque odio dolorem fuga? Deserunt,
+                    doloremque!
                     Vitae necessitatibus corporis, quis ipsam nulla dignissimos. Nulla incidunt vitae facere sequi,
-                    cupiditate cum cumque. Natus voluptate fugit autem est iusto sint optio totam libero delectus ipsam,
+                    cupiditate cum cumque. Natus voluptate fugit autem est iusto sint optio totam libero delectus
+                    ipsam,
                     in aliquid nulla enim temporibus! Fugiat, quidem nihil quod, odit odio obcaecati explicabo
                     perferendis molestias libero cumque sint repellendus repellat.</p>
                 <hr class="home__line">
@@ -83,14 +96,20 @@
                 <p class="home__paragraph">Pierwszy kontakt z programowanie, a dokładniej z kodowaniem, miałem około
                     roku 2004, kiedy to w wieku
                     12
-                    lat zacząłem tworzyć prostą stronę firmy zajmującej się produkcją dachów. Miałem ogólne założenia i
-                    miałem stworzyć gotową statyczną stronę. Oczywiście nie wiedziałem wtedy, że był to dla mnie tylko
+                    lat zacząłem tworzyć prostą stronę firmy zajmującej się produkcją dachów. Miałem ogólne
+                    założenia i
+                    miałem stworzyć gotową statyczną stronę. Oczywiście nie wiedziałem wtedy, że był to dla mnie
+                    tylko
                     projekt do nauki i bardzo się starałem, aby strona była ładna i ciekawa, ponieważ chciałem się
                     pokazać z
-                    jak najlepszej strony. W taktych czasach, tworzenie stron było dość monotonnym i ułomnym zajęciem,
-                    ponieważ nie mieliśmy dostępnych wszystkich obecnych dodatków, bibliotek i innych ułatwień. Mimo iż
-                    wspominam tą naukę z zapałem i entuzjazmem, przez wiele lat nie powróciłem do kodowania stron, aż do
-                    roku 2018, kiedy pierwszy raz zetknąłem się z prawdziwym programowaniem. Był to bot do gry Diablo 2,
+                    jak najlepszej strony. W taktych czasach, tworzenie stron było dość monotonnym i ułomnym
+                    zajęciem,
+                    ponieważ nie mieliśmy dostępnych wszystkich obecnych dodatków, bibliotek i innych ułatwień. Mimo
+                    iż
+                    wspominam tą naukę z zapałem i entuzjazmem, przez wiele lat nie powróciłem do kodowania stron,
+                    aż do
+                    roku 2018, kiedy pierwszy raz zetknąłem się z prawdziwym programowaniem. Był to bot do gry
+                    Diablo 2,
                     który był w stanie sam za nas grać i zbierać przedmioty w grze. Oczywiście nie jestem fanem
                     oszukiwania
                     w grach, ale byłem bardzo zafascynowany działaniem tego programu i zacząłem szukać informacji na
@@ -99,7 +118,8 @@
                     wykorzystywał popularny format plików JSON do konfiguracji ustawień dla użytkownika. Musiałem
                     nauczyć
                     się
-                    wtedy podstawowej struktury plików JSON, aby wszystko działało poprawnie. Przez kolejne miesiące, aż
+                    wtedy podstawowej struktury plików JSON, aby wszystko działało poprawnie. Przez kolejne
+                    miesiące, aż
                     do
                     dnia dzisiejszego, rozwijałem i rozwijam swoje umiejętności, a nawet napisałem swojego własnego
                     małego
@@ -109,9 +129,11 @@
 
                 <hr class="home__line">
                 <h4 class="content__title">Moje hobby</h4>
-                <p class="home__paragraph">Oprócz programowania, poświęcam swój czas dwóm rzeczom: książkom o tematyce
+                <p class="home__paragraph">Oprócz programowania, poświęcam swój czas dwóm rzeczom: książkom o
+                    tematyce
                     fantasy, a także grom
-                    komputerowym. W zakładce Hobby znajdziesz więcej informacji na ten temat, w tym tytuły gier w które
+                    komputerowym. W zakładce Hobby znajdziesz więcej informacji na ten temat, w tym tytuły gier w
+                    które
                     gram
                     oraz listę wszystkich książek jakie posiadam w domowej bibliteczce.</p>
             </article>

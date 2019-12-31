@@ -76,24 +76,33 @@ $('.navigation__element--with-submenu').on("click", () => {
 
 const name = document.querySelector(".home__name");
 const surname = document.querySelector(".home__surname");
+const cursorName = document.querySelector(".cursor__name");
+const cursorSurname = document.querySelector(".cursor__surname");
 
 function nameAnimation() {
     const nameText = ["K", "o", "n", "r", "a", "d"];
     const surnameText = ["O", "l", "c", "h", "a"]
     let nameCounter = 0;
     let surnameCounter = 0;
-    let nameInterval = setInterval(() => {
-        name.innerText += nameText[nameCounter];
-        nameCounter++;
-        if (nameCounter == nameText.length) clearInterval(nameInterval)
-    }, 200)
     setTimeout(() => {
+        let nameInterval = setInterval(() => {
+            name.innerText += nameText[nameCounter];
+            nameCounter++;
+            if (nameCounter == nameText.length) clearInterval(nameInterval)
+        }, 200)
+    }, 3000)
+    setTimeout(() => {
+        cursorName.style.display = "none";
+        cursorSurname.style.display = "inline-block"
+    }, 5000)
+    setTimeout(() => {
+
         let surnameInterval = setInterval(() => {
             surname.innerText += surnameText[surnameCounter]
             surnameCounter++;
             if (surnameCounter == surnameText.length) clearInterval(surnameInterval)
         }, 200)
-    }, 2000)
+    }, 7000)
 }
 if (name != null) {
     nameAnimation()
