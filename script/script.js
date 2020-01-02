@@ -24,7 +24,7 @@ $btnGoTop.on("click", () => {
 })
 
 $(window).on("resize", function () {
-    if ($(window).width() > 682) {
+    if ($(window).width() >= 682) {
         $menu.show()
     } else {
         $menu.hide()
