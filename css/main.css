@@ -134,6 +134,7 @@ body {
 }
 
 .navigation__link {
+    box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -205,7 +206,7 @@ body {
 }
 
 .home__image {
-    width: 40%;
+    width: 35vw;
     height: auto;
     max-width: 300px;
     margin: 0 10px 10px 10px;
