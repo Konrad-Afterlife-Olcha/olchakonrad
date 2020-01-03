@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 .portfolio__github-icon {
     font-size: 80px;
     color: white;
@@ -17,13 +19,24 @@
 }
 
 .portfolio__article {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .portfolio__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
     color: white
@@ -34,7 +47,6 @@
     width: 90%;
     margin-bottom: 10px;
     -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
     box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
 }
 
@@ -58,7 +70,10 @@
 
 @media (min-width: 1000px) {
     .portfolio__article-area {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 

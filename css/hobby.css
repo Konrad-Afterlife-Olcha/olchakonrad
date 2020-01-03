@@ -1,9 +1,15 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 .hidden {
     display: none;
 }
 
 .content__hobby-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -20,17 +26,26 @@
     padding: 10px 0;
     margin: 10px 0;
     -webkit-box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
-    -moz-box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
     box-shadow: 0px 1px 0px 0px rgba(204, 204, 204, 0.75);
 }
 
 .content__article {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .content__hobby {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 20px;
     text-justify: distribute;
@@ -63,7 +78,6 @@
     margin: 0 auto;
     max-width: 80vw;
     -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
 }
 
