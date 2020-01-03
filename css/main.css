@@ -14,7 +14,7 @@ body {
 
 .header {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-image: -webkit-gradient(linear, left top, right top, from(#040a3a), color-stop(#001842), color-stop(#002347), color-stop(#002c4b), to(#00364e));
     background-image: -o-linear-gradient(left, #040a3a, #001842, #002347, #002c4b, #00364e);
     background-image: linear-gradient(to right, #040a3a, #001842, #002347, #002c4b, #00364e);
@@ -75,7 +75,7 @@ body {
 .header__hamburger {
     z-index: 1000;
     position: absolute;
-    right: 20px;
+    right: 10px;
 }
 
 .header__hamburger i {
@@ -331,6 +331,7 @@ body {
 }
 
 p.footer__copyright {
+    box-sizing: border-box;
     width: 100%;
     text-align: center;
     padding-top: 50px;
