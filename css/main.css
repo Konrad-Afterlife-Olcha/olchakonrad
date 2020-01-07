@@ -206,7 +206,8 @@ body {
 }
 
 .home__image {
-    width: 35vw;
+    width: 35%;
+    min-width: 100px;
     height: auto;
     max-width: 300px;
     margin: 0 10px 10px 10px;
