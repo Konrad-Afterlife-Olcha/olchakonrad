@@ -205,8 +205,14 @@ body {
     margin: 0 auto;
 }
 
+.header__img {
+    display: flex;
+    width: 100%;
+
+}
+
 .home__image {
-    width: 35%;
+    width: 40%;
     min-width: 100px;
     height: auto;
     max-width: 300px;
@@ -218,7 +224,7 @@ body {
 .home__animation {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.6rem;
-    width: 50%;
+    width: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
